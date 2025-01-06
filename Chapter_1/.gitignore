@@ -1,1 +1,8 @@
+#ignore makefile
 Chapter_1/Makefile
+
+#ignore compiled executable files
+*.out
+
+#ignore compiled object files
+*.o
