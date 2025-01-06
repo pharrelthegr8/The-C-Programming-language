@@ -14,6 +14,6 @@ int main(){
   int fahr;
 
   for(fahr = LOWER; fahr <= 300; fahr = fahr + INCREMENT){
-    printf("%3d %6d\n", fahr, (5 * (fahr - 32) / 9));
+    printf("%3d°F %6d°C\n", fahr, (5 * (fahr - 32) / 9))
   }
 }
