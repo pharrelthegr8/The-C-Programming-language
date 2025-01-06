@@ -1,5 +1,5 @@
 #ignore makefile
-Chapter_1/Makefile
+Makefile
 
 #ignore compiled executable files
 *.out
