@@ -21,4 +21,5 @@ int main(){
       state = OUT;
     }
   }
+  return 0;
 }
