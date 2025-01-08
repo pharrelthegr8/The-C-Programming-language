@@ -10,7 +10,7 @@ int main(){
   int index = 0;
   char words[20];
   int state = OUT;
-  int increments[20] = {0}; // to keep track of letter counts in a word and the frequency of them
+  int increments[20] = {0};
 
 
   while((character = getchar()) != EOF){
