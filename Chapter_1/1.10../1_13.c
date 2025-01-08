@@ -27,7 +27,7 @@ int main(){
       printf("%s ", words);
       
       if(index < 20){
-        ++increments[index]; // count the number of times a specific index is appearing
+        ++increments[index];
       }
       state = OUT; // outside word
       
