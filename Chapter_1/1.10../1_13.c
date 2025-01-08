@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 #define IN 1
 #define OUT 0
@@ -37,6 +38,8 @@ int main(){
       }
     } 
   }
+  system("clear");
+  printf("HISTOGRAM\n");
   printf("\n");
   for(int l = 1; l < 10; ++l){
       printf("%d ", l);
@@ -48,4 +51,3 @@ int main(){
   /*code for a horizontal histogram
    */
 }
-
